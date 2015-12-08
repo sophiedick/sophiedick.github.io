@@ -2,10 +2,6 @@
   border: 1px dashed #00E5EE;
 }
 
-HTML  CSS   Result
-Edit on 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
 body{
 background-color: #B9B5B5;
 
@@ -13,7 +9,7 @@ background-color: #B9B5B5;
 .area{
   text-align:center;
   font-size:2.5em;
-  color:#9E9E9E;
+  color:white;
   letter-spacing: -7px;
   font-weight:700;
   text-transform:uppercase;
@@ -73,9 +69,10 @@ background-color: #B9B5B5;
 
 
 div#gameContainer {
-	background-image: url("http://static1.squarespace.com/static/548f4227e4b0a74c46448142/548f5d10e4b0dda57387dec9/54a04d98e4b093269b62f5fa/1419791769876/slate+background+1280px+90dpi+webop.jpg?format=1500w");
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3lYhvT3_Vr_3erD60V5iApvINp3nn-80gkAlBoEHu2gnmY4VVQ");
+	background-size: cover; 
 	width: 1400px;
-	height:900px;
+	height:950px;
 	background-color:white;
 	/*margin: 0 auto;*/
 	position: relative;
@@ -104,30 +101,45 @@ img {
 	/*position: absolute;*/
 	width:1400px;
 	height: 190px;
-	background-color:white;
+	background-color:black;
 	margin-top:20px;
 	margin-left: 5px;
 	text-align: center;
 	font-size: 50px;
 	border:2px solid black;
 	border-radius: 10px;
-	color: black;
-	font-family: 'Play', sans-serif;
-	-webkit-box-shadow: inset 17px -12px 7px -7px rgba(245,245,245,1);
-	-moz-box-shadow: inset 17px -12px 7px -7px rgba(245,245,245,1);
-	box-shadow: inset 17px -12px 7px -7px rgba(245,245,245,1);
+	color: white;
+	font-family:'Mountains of Christmas', cursive;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #playerText{
 	height:60px;
 	width:250px;
-	font-size: 10px
+	font-size: 10px;
 }
+
+#submitButton {
+	height:60px;
+	width:200px;
+	font-size: 20px;
+	font-family:'Mountains of Christmas', cursive;
+	background-color: black;
+	color: white;
+	border:5px solid white;
+
+}
+
 
 #answerInputs p{
 	width:40px;
 	height:40px;
-	background-color: red;
+	background-color: black;
+	border-radius: 5px;
+	border: 2px solid black;
+	text-align: center;
 }
 
 
@@ -147,7 +159,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 }
 
 #boysNames {
@@ -157,7 +169,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	
 }
 
@@ -168,7 +180,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 }
 
 #europeanCities {
@@ -178,7 +190,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 }
 
 .List1 {
@@ -188,7 +200,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;
 	color: white;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 }
 
 .list2 {
@@ -197,7 +209,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;;
 	color: white;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 
 }
 
@@ -207,7 +219,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;
 	color: white;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 }
 
 .list4 {
@@ -216,7 +228,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;;
 	color: white;
-	font-family: 'Play', sans-serif;
+	font-family: 'Indie Flower', cursive;
 }
 
 .inputs {
@@ -252,11 +264,11 @@ img {
 }
 
 #nameAndScores {
-	width: 300px;
+	width: 230px;
 	/*border: 1px solid black;*/
 	overflow: hidden; 
 	display: inline-block;
-	margin: 0 auto;
+	margin-top: 10px;
 }
 
 #player1Scoreboard{
@@ -268,8 +280,9 @@ img {
 	border-radius: 10px;
 	color: white;
 	font-size:25px;
-	font-family: 'Play', sans-serif;
+	font-family:'Mountains of Christmas', cursive;
 	/*float:right;*/
+	
 
 }
 
@@ -282,7 +295,7 @@ img {
 	border-radius: 10px;
 	color: white;
 	font-size: 25px;
-	font-family: 'Play', sans-serif;
+	font-family:'Mountains of Christmas', cursive;
 	/*float:right;*/
 }
 
@@ -296,8 +309,8 @@ img {
 	border-radius: 10px;
 	color: white;
 	font-size:25px;
-	margin: 0 auto;
-	font-family: 'Play', sans-serif;
+	/*margin:10px;*/
+	font-family:'Mountains of Christmas', cursive;
 	/*position: absolute;*/
 	
 }
@@ -312,22 +325,21 @@ img {
 	border-radius: 10px;
 	color: white;
 	font-size:25px;
-	font-family: 'Play', sans-serif;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 #answerInputs {
 	display: inline-block;
 	/*float: right*/;
 	width: 300px;
-	height: 120px;
+	height: 190px;
 	border-radius: 10px;
-	background-color: #26A69A;
-	margin:2px;
+	background-color: white;
+	margin:10px;
 	vertical-align: top;
 	padding:10px;
+	border: 2px solid black;
 }
-
-
 
 
 
