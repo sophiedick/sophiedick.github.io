@@ -3,7 +3,8 @@
 }
 */
 body{
-background-color:#1B5E20
+	background-color:#1B5E20
+}
 
 }
 .area{
@@ -69,7 +70,8 @@ background-color:#1B5E20
 
 
 div#gameContainer {
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3lYhvT3_Vr_3erD60V5iApvINp3nn-80gkAlBoEHu2gnmY4VVQ");
+	background-image: url("http://www.drmdk.com/PIx/blackboard-green-clean.png");
+	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3lYhvT3_Vr_3erD60V5iApvINp3nn-80gkAlBoEHu2gnmY4VVQ");*/
 	background-size: cover; 
 	width: 1400px;
 	height:950px;
@@ -151,6 +153,7 @@ img {
 	border: 2px solid white;
 	text-align: center;
 	color: white;
+	font-size: 20px;
 
 }
 
