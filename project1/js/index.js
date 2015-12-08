@@ -220,7 +220,7 @@ $(document).ready(function() {
 		
 		if (($.inArray(playerText.val(), gameArray)) != -1) {	
 			// console.log(thisGameAnswerArray);
-		  messages.html("Correct");
+		  messages.html("Correct!!");
 		  messages.css("background-color","#00C853");
 		  correctSound();
 			playerWords.push(playerText.val());
@@ -296,8 +296,8 @@ $(document).ready(function() {
 
 
 	function resetBoard(){
-		messages.html(playerOne + " you're score is " + counter + ". " + playerTwo + " you're up! Get memorising");
-		messages.css("background-color","#FFEB3B");
+		messages.html(playerOne + " you're score is " + counter + ". " + playerTwo + " you're up! Get memorising!!!");
+		messages.css("background-color","#2c3e50");
 		List1.each(function() {
 			List1Array.push($(this).text());
 		});

@@ -57,7 +57,7 @@ background-color: #B9B5B5;
     height: 800px;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Droid Serif', serif;
+    font-family:'Mountains of Christmas', cursive;
     text-align: center;
     margin: 0 auto;
     color:white;
@@ -116,9 +116,17 @@ img {
 }
 
 #playerText{
-	height:60px;
-	width:250px;
+	height:50px;
+	width:200px;
 	font-size: 10px;
+	display:block;
+	border:none;
+	margin: 0px;
+	margin-bottom: 2px;
+	padding:10px;
+	text-transform: lowercase;
+
+
 }
 
 #submitButton {
@@ -128,7 +136,8 @@ img {
 	font-family:'Mountains of Christmas', cursive;
 	background-color: black;
 	color: white;
-	border:5px solid white;
+	border:2px solid white;
+	border-radius: 2px;
 
 }
 
@@ -138,8 +147,10 @@ img {
 	height:40px;
 	background-color: black;
 	border-radius: 5px;
-	border: 2px solid black;
+	border: 2px solid white;
 	text-align: center;
+	color: white;
+
 }
 
 
@@ -159,7 +170,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 #boysNames {
@@ -169,7 +180,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 	
 }
 
@@ -180,7 +191,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 #europeanCities {
@@ -190,7 +201,7 @@ img {
 	margin:5px;
 	padding: 5px;
 	text-decoration: underline;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 .List1 {
@@ -200,7 +211,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;
 	color: white;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 .list2 {
@@ -209,7 +220,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;;
 	color: white;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 
 }
 
@@ -219,7 +230,7 @@ img {
 	/*text-align: center;*/
 	margin:5px;
 	color: white;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 .list4 {
@@ -228,19 +239,11 @@ img {
 	/*text-align: center;*/
 	margin:5px;;
 	color: white;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 .inputs {
 	margin: 0 auto;
-}
-
-#playerText {
-	margin: 5px;
-	width: 200px;
-	height: 20px;
-	border-radius: 0px;
-	text-transform: lowercase;
 }
 
 .listContainer{
@@ -334,11 +337,11 @@ img {
 	width: 300px;
 	height: 190px;
 	border-radius: 10px;
-	background-color: white;
+	background-color: black;
 	margin:10px;
 	vertical-align: top;
 	padding:10px;
-	border: 2px solid black;
+	border: 2px solid white;
 }
 
 

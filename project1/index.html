@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- FONT LINKS from Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Mountains+of+Christmas' rel='stylesheet' type='text/css'>
+	
+	<title>BrainSmart</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="soundManager/script/soundmanager2.js"> </script> 
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="js/index.js"></script>
+
+
+</head>
+<body>
+	<div id="instructions"> 
+	<p>
+
+	<div class="area">
+	Introducing   1991's   Brain   Training   2.0
+	</div>
+
+	<img src="http://www.culture24.org.uk/asset_arena/6/58/56/465856/v0_master.jpg">
+	<br><br>
+
+	<i class="fa fa-spinner fa-pulse"></i><i class="fa fa-spinner fa-pulse"></i>
+	<i class="fa fa-spinner fa-pulse"></i><i class="fa fa-spinner fa-pulse"></i><br><br>
+
+
+	This is a game for 2 players, designed to test both your memory and concentration levels. <br><br>
+
+	You will be shown 4 lists. Each list will populate individually and you will have 10 seconds to memorize all 7 items in the list. <br><br>
+
+	After 40 seconds all the lists will have been shown. <br><br>
+
+	A random generator will then ask you to recall the 7 items in ONE of the 4 lists. <br><br>
+
+	The player who remembers the most items is the winner!<br><br>
+	***TIP***<br>
+	All items are listed in an alphabetical order: A - G!<br><br>
+	Good Luck! <br><br>
+	</p>
+	</div>
+	<div id="messages"><b>Welcome to Brain Training 2.0</b>
+	</div>
+
+	<div id="nameAndScores">
+	<div id="player1Name"><!-- <input id="getp1Name" type="text"> --></div>
+	<div id="player1Scoreboard"></div>
+
+	<div id="player2Name"><!-- <input id="getp2Name" type="text"> --></div> 
+	<div id="player2Scoreboard"></div>
+	</div>
+
+	<div id="answerInputs">
+	<input id="playerText" type="text" value="">
+	<input id="submitButton" type="button" value="Enter Answer">
+	<p> 7 </p>
+	</div>
+	
+	<div id="gameContainer"> 
+
+	<div class="listContainer">
+		<ul class="fa-ul">
+		<h3 id="groceryList"> <i class="fa fa-cart-plus"></i> Grocery List</h3>
+			<li class="List1">apples</li>
+			<li class="List1">bananas</li>
+			<li class="List1">cheese</li>
+			<li class="List1">duck</li>
+			<li class="List1">eggs</li>
+			<li class="List1">fish</li>
+			<li class="List1">grapes</li>
+		</ul>
+		</div>
+
+	<div class="listContainer2">
+		<ul class="fa-ul">
+		<h3 id="boysNames"> <i class="fa fa-male"></i> Boys Names</h3>
+			<li class="list2">alex</li>
+			<li class="list2">bob</li>
+			<li class="list2">charlie</li>
+			<li class="list2">david</li>
+			<li class="list2">edward</li>
+			<li class="list2">freddie</li>
+			<li class="list2">george</li>
+		</ul>
+	</div>
+
+	<div class="listContainer3">
+		<ul class="fa-ul">
+		<h3 id="girlsNames"> <i class="fa fa-female"></i> Girls Names</h3>
+			<li class="list3">anna</li>
+			<li class="list3">bella</li>
+			<li class="list3">caroline</li>
+			<li class="list3">donna</li>
+			<li class="list3">emma</li>
+			<li class="list3">francesca</li>
+			<li class="list3">georgina</li>
+		</ul>
+	</div>
+
+	<div class="listContainer4">
+		<ul class="fa-ul">
+		<h3 id="europeanCities"> <i class="fa fa-eur"></i> European Countries</h3>
+			<li class="list4">austria</li>
+			<li class="list4">belgium</li>
+			<li class="list4">croatia</li>
+			<li class="list4">denmark</li>
+			<li class="list4">estonia</li>
+			<li class="list4">finland</li>
+			<li class="list4">greece</li>
+		</ul>
+	</div>
+
+	
+	</div>
+	
+
+</body>
+</html>
