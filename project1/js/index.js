@@ -145,6 +145,8 @@ $(document).ready(function() {
 		checkWins(thisGameAnswerNumber); 
 	});
 
+
+// Function to check if input is correct: 
 	function checkWins(number) { 
 		// This function pushes all the players guesses to an array named player words 
 		var gameArray = listGenerator(number);	
@@ -204,6 +206,8 @@ $(document).ready(function() {
 			}
 		}
 	};
+
+// Switch the players scores
 	
 	function updateScore(){
 		if (playerOneTurn == true) {
@@ -214,6 +218,7 @@ $(document).ready(function() {
 	}
 
 
+// Function to start second players game
 
 	function resetBoard(){
 		messages.html(playerOne + " you're score is " + counter + ". " + playerTwo + " you're up! Get memorising!!!");
@@ -251,7 +256,8 @@ $(document).ready(function() {
 			
 	}
 
-	//This function shows the instructions until clicked and also start the game	
+//This function shows the instructions until clicked and also start the game
+
 	function seeInstructions(){
 		startMusic();
 		$("#instructions").click(function() {
@@ -260,6 +266,8 @@ $(document).ready(function() {
 	});
 }
 	
+// Compare both players scores function: 
+
 	function compareScores(){
 		var score1 = parseInt($("#player1Scoreboard").html());
 		console.log(score1);
@@ -278,6 +286,8 @@ $(document).ready(function() {
 		endSound();
 	}
 
+
+// Sound Functions
 	function wrongSound(){
 		soundManager.createSound({
 		  url: 'sounds/familyfortunes.mp3'
