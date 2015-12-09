@@ -21,12 +21,12 @@ Brain Training 2.0 is an educational game for 2 players, designed to test both m
 
 After 40 seconds all the lists will have been shown. A random generator function will then ask the player to recall the 7 items in one of the 4 lists. The player who remembers the most items is the winner!
 
-I focused most of my time on the Javascript and jQuey, keeping the HTML and CSS simple due to time constraints. I used my own proprietary version of Pivotal Tracking to pre-plan execution of the project. I discovered throughout the project better ways of refactoring my code and will definitely take that learning experience to my next projects. 
+I focused most of my time on the Javascript and jQuery, keeping the HTML and CSS simple due to time constraints. I used my own proprietary version of Pivotal Tracking to pre-plan execution of the project. I discovered throughout the project better ways of refactoring my code and will definitely take that learning experience to my next projects. 
 
 ### Further deliverables:
 	a. Build out the difficulty levels, so user can progress through the game.
-	b. Ability to collect badges as they go along which unlock different levels, hopefully help to cement stickiness. 
+	b. Ability to collect badges as they progress through the game which unlock different levels, hopefully helping to cement stickiness. 
 	c. Toggle option for single or multi-player. 
-	d. Restyle the CSS to feel more modern enhancing user experience to capturing a wider audience. 
+	d. Restyle the CSS to feel more modern enhancing user experience to capture a wider audience. 
 	e. Add responsive design element. 
 	
